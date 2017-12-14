@@ -7,10 +7,12 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "start": "serve --single"
   },
   "dependencies": {
     "materialize-css": "^0.100.2",
+    "serve": "^6.4.1",
     "vue": "^2.4.4",
     "vue-awesome-swiper": "^3.0.6",
     "vue-router": "^3.0.1"
