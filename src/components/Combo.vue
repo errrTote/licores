@@ -1,14 +1,10 @@
-<template>
-  <div class="card">
-    <div class="card-image">
-      <img :src="combo.img">
-    </div>
-    <div class="card-content">
-      <ul>
-        <li v-for="c in combo.contenido"> {{ c.nombre }} {{ c.presentacion }}</li>
-      </ul>
-    </div>                
-  </div>
+<template lang="pug">          
+  .card
+    .card-image
+      img(:src="combo.img")
+    .card-content
+      ul
+        li(v-for="c in combo.contenido") {{ c.nombre }} {{ c.presentacion }}
 </template>
 
 <script>  
