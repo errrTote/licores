@@ -35,8 +35,7 @@ import { swiper, swiperSlide } from 'vue-awesome-swiper'
         tragos: [
           {
             nombre: 'Sangria (20 personas)',
-            img: require('@/assets/img/sangria.jpg'),
-            especial: true,
+            img: require('@/assets/img/sangria.jpg'),            
             contenido: [
               'Azucar',
               'Brandy',
@@ -74,8 +73,7 @@ import { swiper, swiperSlide } from 'vue-awesome-swiper'
           },
           {
             nombre: 'Chocolate Martini',
-            img: require('@/assets/img/chocolate_martini.jpg'),
-            especial: true,
+            img: require('@/assets/img/chocolate_martini.jpg'),            
             contenido: [
               'Licor de Cacao',
               'Sirope de Chocolate',
